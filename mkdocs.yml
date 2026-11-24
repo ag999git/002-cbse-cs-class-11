@@ -3,8 +3,6 @@ site_url: https://ag999git.github.io/002-cbse-cs-class-11/
 repo_url: https://github.com/ag999git/002-cbse-cs-class-11
 docs_dir: book
 use_directory_urls: true
-exclude_docs: |
-  SUMMARY.md
 theme:
   name: material
   language: en
