@@ -302,3 +302,56 @@ Tags: Case study · M · ☆ · B
 Tags: Draw · M · ★ · B
 
 **Answer.** Draw the pyramid of section 1.6: registers at the top, then cache, primary memory (RAM, ROM), secondary memory at the base; arrows showing "faster, costlier, closer to the CPU" upwards and "bigger, slower, cheaper" downwards. Reason: the fastest memory costs far more per byte, so a computer with only fast memory would be unaffordable. *Exam tip:* label all four levels with an example each.
+
+## Worked example (units): arrange in ascending order: 4096 KB, 3 MB, 0.5 GB, 600 MB
+
+> **Worked example 2: arrange in ascending order: 4096 KB, 3 MB, 0.5 GB, 600 MB**
+>
+> Change all to one unit, MB: 4096 KB = 4096 ÷ 1024 = 4 MB; 0.5 GB = 0.5 × 1024 = 512 MB.
+>
+> So: 3 MB, 4 MB, 512 MB, 600 MB, that is **3 MB < 4096 KB < 0.5 GB < 600 MB**.
+
+## Worked example (units): how many 4 MB photos fit on a 2 GB pen drive?
+
+> **Worked example 3: how many 4 MB photos fit on a 2 GB pen drive?**
+>
+> 2 GB = 2 × 1024 MB = 2048 MB. Photos: 2048 ÷ 4 = **512 photos**.
+
+## Cover and recall
+
+Cover the right column and say it aloud; then check.
+
+Table: Cover and recall
+
+| Prompt | Answer |
+|---|---|
+| The four things every computer does | input, process, output, storage |
+| Data that has been processed | information |
+| The part of the CPU that directs | control unit |
+| The part that calculates and compares | ALU |
+| The fastest memory of all | registers |
+| Fast memory between the CPU and RAM | cache |
+| Volatile, read-and-write memory | RAM |
+| Non-volatile, read-only, start-up | ROM |
+| Not used directly by the CPU | secondary memory |
+| Magnetic storage with moving parts | hard disk (HDD) |
+| Flash storage, no moving parts | SSD, pen drive |
+| 1 nibble | 4 bits |
+| 1 byte | 8 bits |
+| 1 KB | 1024 bytes |
+| 1 TB | 1024 GB |
+| Big unit to small unit | multiply |
+| Starting the computer from the program in ROM | booting |
+
+## Chapter 1 on one card
+
+> **Chapter 1 on one card**
+>
+> - **System:** input → process → output + storage · data → information · instruction → program
+> - **Hardware / software:** touch / cannot touch · stove / recipe · each needs the other
+> - **Devices:** which way does the data flow? In = input, out = output, both = touchscreen · pen drive = storage
+> - **CPU:** CU directs · ALU calculates and compares · registers hold the now · fetch → decode → execute
+> - **Memory:** registers → cache → RAM/ROM → secondary: farther = bigger, slower, cheaper
+> - **RAM vs ROM:** read-write, volatile, programs in use · read-only, non-volatile, start-up
+> - **Secondary:** permanent, via RAM · HDD magnetic, moving · SSD flash, none · DVD optical
+> - **Units:** 4 bits nibble · 8 bits byte · × 1024: KB, MB, GB, TB, PB · big → small multiply
