@@ -6,6 +6,10 @@ The online pages of this chapter of *Computer Science with Python, CBSE Class XI
 |---|---|
 | [Challenge: all 16 gates of two inputs](challenge-16-functions.md) | Challenge |
 | [Challenge: two bits for three results](challenge-two-bits-three-results.md) | Challenge |
+| [Beyond syllabus: from a truth table back to an expression: SOP, POS and K-maps](beyond-sop-pos-kmap.md) | Beyond syllabus |
+| [Beyond syllabus: XNOR, the "same answer" detector](beyond-xnor.md) | Beyond syllabus |
+| [Sometimes asked: duality, tautology and fallacy](sometimes-asked-duality-tautology.md) | Sometimes asked |
+| [Boolean playground (opens in Google Colab)](https://colab.research.google.com/github/ag999git/002-cbse-cs-class-11/blob/main/notebooks/ch03-boolean-playground.ipynb) | Try it yourself |
 | [Questions with answers](questions/index.md) | Practice |
 | [Glossary](glossary.md) | Words of the chapter |
 | [Flashcards](flashcards.md) | Revision |

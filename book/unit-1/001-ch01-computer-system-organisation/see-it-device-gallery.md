@@ -1,81 +1,116 @@
-# The device gallery
+# See it: the device gallery
 
-**See it** · for understanding, not needed for the exam answer · Chapter 1, section 1.3
+*Chapter 1 · See it. Every device of section 1.3, drawn large in full colour. For understanding; not needed for the exam answer.*
 
-Every device below is drawn large, with its parts labelled. Under each drawing: what it does, and how it works in
-two or three lines. The rule from the book still holds: **which way does the data flow?** Into the computer = input;
-out of it = output.
+For each device ask the one question of section 1.3: **which way does the data flow?**
 
-## Input devices
+## Keyboard
 
-![Keyboard](../../assets/images/ch01/c01-dev-keyboard.png)
+![Keyboard](../../assets/images/ch01/colour-dev-keyboard.jpg)
 
-**Keyboard.** Each key closes a tiny switch underneath it. A small chip in the keyboard notices which switch closed
-and sends that key's code to the computer. The function keys (F1–F12) do special jobs set by each program; the
-numeric keypad makes typing numbers quick.
+- **Type:** input
+- **What it changes:** Key presses → data
+- **Where you meet it:** Typing a school project
 
-![Mouse](../../assets/images/ch01/c01-dev-mouse.png)
+## Mouse, touchpad, joystick
 
-**Mouse.** A small light and a tiny camera underneath take hundreds of pictures of the desk every second; by comparing
-them, the mouse works out which way and how far it moved, and the pointer on the screen moves the same way. The
-buttons send clicks; the wheel scrolls.
+![Mouse, touchpad, joystick](../../assets/images/ch01/colour-dev-mouse.jpg)
 
-![Flatbed scanner](../../assets/images/ch01/c01-dev-scanner.png)
+- **Type:** input
+- **What it changes:** Movement and clicks → data
+- **Where you meet it:** Pointing, games
 
-**Scanner.** The page lies face down on the glass. A bar with a bright light moves slowly under it, and light sensors
-on the bar measure how much light each tiny dot of the page reflects. Row by row, the page becomes a picture made of
-dots.
+## Scanner
 
-![Barcode reader](../../assets/images/ch01/c01-dev-barcode.png)
+![Scanner](../../assets/images/ch01/colour-dev-scanner.jpg)
 
-**Barcode reader.** It shines light on the bars: black bars reflect little light, white gaps reflect a lot. The
-pattern of thick and thin bars is a number (the product's code), which the shop's computer looks up to find the name
-and price.
+- **Type:** input
+- **What it changes:** A page → a picture
+- **Where you meet it:** Scanning a certificate
 
-![Microphone](../../assets/images/ch01/c01-dev-microphone.png)
+## Barcode reader, QR code scanner
 
-**Microphone.** Sound is air shaking. A thin sheet inside the microphone shakes with it and turns the shaking into a
-changing electric signal, which the computer turns into numbers (data).
+![Barcode reader, QR code scanner](../../assets/images/ch01/colour-dev-barcode.jpg)
 
-![Webcam](../../assets/images/ch01/c01-dev-webcam.png)
+- **Type:** input
+- **What it changes:** Bars or squares → a code
+- **Where you meet it:** Shop billing counter; paying by UPI
 
-**Webcam.** The lens focuses light onto a small sensor made of millions of light-sensitive dots; each dot measures
-how much light falls on it, and together they make a picture, many times a second (video). Most webcams also have a
-small microphone.
+## Webcam, digital camera
 
-![Touchscreen](../../assets/images/ch01/c01-dev-touchscreen.png)
+![Webcam, digital camera](../../assets/images/ch01/colour-dev-webcam.jpg)
 
-**Touchscreen (input and output).** A see-through touch layer senses exactly where the finger touches (input); the
-display underneath shows the pictures (output). Two jobs, one glass.
+- **Type:** input
+- **What it changes:** Light → pictures
+- **Where you meet it:** Online classes
 
-## Output devices
+## Microphone
 
-![Monitor](../../assets/images/ch01/c01-dev-monitor.png)
+![Microphone](../../assets/images/ch01/colour-dev-microphone.jpg)
 
-**Monitor.** The screen is made of millions of tiny dots called **pixels**. Each pixel can glow in any colour; together
-they make the text and pictures. The more pixels, the sharper the picture (the **resolution**, e.g. 1920 × 1080).
+- **Type:** input
+- **What it changes:** Sound → data
+- **Where you meet it:** Voice search
 
-![Inkjet printer](../../assets/images/ch01/c01-dev-printer.png)
+## Monitor
 
-**Printer.** An inkjet printer sprays tiny drops of ink from the cartridges onto the paper as the print head moves
-across it. A laser printer instead uses a laser and a fine powder (toner) melted onto the paper. The printed page is
-**hard copy**.
+![Monitor](../../assets/images/ch01/colour-dev-monitor.jpg)
 
-![Speakers](../../assets/images/ch01/c01-dev-speaker.png)
+- **Type:** output
+- **What it changes:** Data → light (text, pictures)
+- **Where you meet it:** Every desktop computer
 
-**Speakers.** The opposite of a microphone: an electric signal makes the cone shake, and the shaking cone pushes the
-air: that is sound. Big cones make the low sounds, small ones the high sounds.
+## Printer (impact, non-impact)
 
-![Projector](../../assets/images/ch01/c01-dev-projector.png)
+![Printer (impact, non-impact)](../../assets/images/ch01/colour-dev-printer.jpg)
 
-**Projector.** A very bright lamp shines through (or off) a small picture-making chip; the lens makes the picture large
-on a wall or screen. Used in classrooms and halls.
+- **Type:** output
+- **What it changes:** Data → ink on paper
+- **Where you meet it:** Bank passbook; home printer
 
-![Plotter](../../assets/images/ch01/c01-dev-plotter.png)
+## Speaker, headphones
 
-**Plotter.** It draws very large drawings, such as building plans and maps, on wide rolls of paper, with pens or
-ink jets that move across the paper.
+![Speaker, headphones](../../assets/images/ch01/colour-dev-speaker.jpg)
 
----
+- **Type:** output
+- **What it changes:** Data → sound
+- **Where you meet it:** Music, announcements
 
-*Drawings: clean line drawings made for this book; labels added by program.*
+## Projector
+
+![Projector](../../assets/images/ch01/colour-dev-projector.jpg)
+
+- **Type:** output
+- **What it changes:** Data → light on a wall
+- **Where you meet it:** Smart classroom
+
+## Plotter
+
+![Plotter](../../assets/images/ch01/colour-dev-plotter.jpg)
+
+- **Type:** output
+- **What it changes:** Data → large line drawings
+- **Where you meet it:** Building plans
+
+## Touchscreen
+
+![Touchscreen](../../assets/images/ch01/colour-dev-touchscreen.jpg)
+
+- **Type:** both
+- **What it changes:** Touch in; pictures out
+- **Where you meet it:** Phone, ATM
+
+## More devices (no picture yet)
+
+| Device | Type | What it changes | Where you meet it |
+|---|:-:|---|---|
+| Light pen | Input | Pointing at the screen → a position | Designers drawing on a screen |
+| OMR (Optical Mark Reader) | Input | Pencil marks in bubbles → answers | Checking MCQ answer sheets in entrance exams |
+| MICR (Magnetic Ink Character Reader) | Input | Numbers printed in magnetic ink → data | The numbers along the bottom of a bank cheque |
+| OCR (Optical Character Recognition) | Input | Printed text in a picture → text you can edit | Copying the text of a photographed page |
+| Smart card reader | Input | The chip on a card → data | Metro card gate; debit card at a shop |
+| Biometric reader | Input | Fingerprint, face or eye → data | Aadhaar check; school attendance |
+| Braille keyboard | Input | Braille keys → letters | Used by people who cannot see |
+| 3D printer | Output | Data → a solid object, built layer by layer | Models, spare parts |
+| Braille display | Output | Text → small pins that rise, read by touch | Used by people who cannot see |
+| Headset with microphone | Both | Voice in; sound out | Online classes, calls |

@@ -1,63 +1,103 @@
-# Inside the computer: motherboard, CPU, RAM, hard disk, SSD and ROM
+# See it: inside the computer
 
-**See it** · for understanding, not needed for the exam answer · Chapter 1, section 1.6
+*Chapter 1 · See it. The real parts, drawn large: first labelled (as in the book), then in full colour.*
 
-## The hard disk drive (HDD), cover removed
+## Inside a desktop computer (side panel removed)
 
-![Hard disk drive](../../assets/images/ch01/c01-part-hdd.png)
+![Inside a desktop computer (side panel removed), labelled](../../assets/images/ch01/c01-part-cabinet-v2.png)
 
-- The **platter** is a disk coated with a magnetic material. Data is stored as millions of tiny magnetic spots, each
-  pointing one way (1) or the other (0).
-- The **spindle** spins the platter very fast, typically 5400 or 7200 turns a minute.
-- The **read/write head** floats a hair's breadth above the spinning platter; it reads the spots or changes them.
-- The **actuator arm** swings the head across the platter to the right track, like the arm of an old record player.
+- **A** Case fan: pulls cool air through the cabinet.
+- **B** CPU cooler: a fan on a metal heat sink; the CPU is under it.
+- **C** Motherboard: the main circuit board; every part connects to it.
+- **D** Graphics card in an expansion slot: makes the picture for the monitor.
+- **E** Power supply unit: turns mains electricity into the low voltages the parts need.
+- **F** RAM modules: primary memory.
+- **G** SSD: secondary memory, flash chips.
+- **H** Cables: carry power and data between the parts.
+- **I** Hard disk (HDD) in the drive cage: secondary memory, magnetic.
 
-**Why is a hard disk slower than RAM?** Before it can read anything, the arm must swing to the right track and wait for
-the right part of the platter to spin round under the head. RAM has no moving parts: any location is reached at once.
+![Inside a desktop computer (side panel removed), in full colour](../../assets/images/ch01/colour-part-cabinet.jpg)
 
-## The solid state drive (SSD), cover removed
+## A motherboard
 
-![Solid state drive](../../assets/images/ch01/c01-part-ssd.png)
+![A motherboard, labelled](../../assets/images/ch01/c01-part-motherboard-v2.png)
 
-An SSD has nothing that moves: the data is kept as electric charges in **flash memory chips**, and a **controller** chip decides where each piece of data goes. A small **cache** chip holds data on its way in and out.
+- **A** Ports (USB, network, sound): input and output devices plug in here.
+- **B** M.2 slot: an SSD plugs in here.
+- **C** Expansion slot: add a card (graphics, network).
+- **D** Cell (battery): keeps the clock and the settings when the computer is off.
+- **E** ROM chip (BIOS or UEFI): the start-up instructions.
+- **F** CPU socket, with the CPU in it.
+- **G** RAM modules (sticks) in their slots.
+- **H** Main power connector: power from the power supply comes in here.
+- **I** Chipset under its heat sink: traffic control between the parts.
+- **J** SATA connectors: cables to the hard disk and SSD.
+
+![A motherboard, in full colour](../../assets/images/ch01/colour-part-motherboard.jpg)
+
+## The CPU chip (processor): top and underside
+
+![The CPU chip (processor): top and underside, labelled](../../assets/images/ch01/c01-part-cpu-v2.png)
+
+- **A** Metal lid (heat spreader): carries heat to the cooler; the chip itself is under it.
+- **B** Base board: carries the signals from the chip to the pads.
+- **C** Contact pads: hundreds of tiny points that touch the socket.
+- **D** Triangle mark: shows which way round the chip fits.
+
+![The CPU chip (processor): top and underside, in full colour](../../assets/images/ch01/colour-part-cpu.jpg)
+
+## A RAM module (stick)
+
+![A RAM module (stick), labelled](../../assets/images/ch01/c01-part-ram-v2.png)
+
+- **A** Side notches: the slot's clips lock in here and hold the stick.
+- **B** Gold contacts (pins): connect to the slot on the motherboard.
+- **C** Memory chips: store the data (only while the power is on).
+- **D** Circuit board: holds the chips and the wiring between them.
+- **E** Notch in the contacts: the stick fits only one way.
+
+![A RAM module (stick), in full colour](../../assets/images/ch01/colour-part-ram.jpg)
+
+## A hard disk drive (HDD), cover removed
+
+![A hard disk drive (HDD), cover removed, labelled](../../assets/images/ch01/c01-part-hdd-v2.png)
+
+- **A** Actuator arm: moves the head across the platter.
+- **B** Pivot: the arm swings about it.
+- **C** Data connector: the cable to the motherboard.
+- **D** Power connector.
+- **E** Spindle: spins the platter thousands of times a minute.
+- **F** Platter: a disk with a magnetic coating that holds the data.
+- **G** Metal case: sealed against dust.
+- **H** Read/write head: reads and writes the magnetic spots.
+
+![A hard disk drive (HDD), cover removed, in full colour](../../assets/images/ch01/colour-part-hdd.jpg)
+
+## A solid state drive (SSD), cover removed
+
+![A solid state drive (SSD), cover removed, labelled](../../assets/images/ch01/c01-part-ssd-v2.png)
+
+- **A** Flash memory chips: store the data, even with the power off.
+- **B** Case.
+- **C** Cache chip: a little fast memory.
+- **D** Cover (taken off).
+- **E** Controller: manages the flash chips.
+- **F** Connector: data and power. Nothing moves inside an SSD.
+
+![A solid state drive (SSD), cover removed, in full colour](../../assets/images/ch01/colour-part-ssd.jpg)
+
+## A ROM chip (an EPROM)
+
+![A ROM chip (an EPROM), labelled](../../assets/images/ch01/c01-part-rom-v2.png)
+
+- **A** Plastic or ceramic body.
+- **B** Notch: shows which end is pin 1.
+- **C** Quartz window (EPROM only): ultraviolet light through it erases the chip.
+- **D** Pins (legs): carry signals in and out.
+
+![A ROM chip (an EPROM), in full colour](../../assets/images/ch01/colour-part-rom.jpg)
 
 ## HDD and SSD compared
 
-| Basis of difference | HDD | SSD |
-|---|---|---|
-| Stores data as | Magnetic spots on platters | Electric charges in flash chips |
-| Moving parts | Yes (platter, arm) | None |
-| Speed | Slower | Much faster: a computer with an SSD starts in seconds |
-| If dropped | Can break (the head can hit the platter) | Much stronger |
-| Noise and power | Makes some noise; uses more power | Silent; uses less power |
-| Cost per GB | Lower | Higher |
+![RAM and ROM; HDD and SSD: picture cards](../../assets/images/ch01/c01-fig-cards.png)
 
-A pen drive and a memory card use the same **flash** memory as an SSD.
-
-## The motherboard
-
-![Motherboard](../../assets/images/ch01/c01-part-motherboard.png)
-
-The **motherboard** is the main circuit board: every part of the computer plugs into it, and the thin copper lines
-printed on it carry data between the parts. The CPU sits in its socket, the RAM modules in their slots, the ROM chip
-holds the start-up program, and the ports on the edge connect the input and output devices.
-
-## A ROM or EPROM chip
-
-![ROM chip](../../assets/images/ch01/c01-part-rom.png)
-
-The real chip is a tiny square of silicon inside the plastic body; the pins carry signals in and out. An **EPROM** has
-a little quartz window: shining ultraviolet light through it for a few minutes erases the chip so that it can be
-written again.
-
-## The CPU chip and a RAM module
-
-![CPU chip](../../assets/images/ch01/c01-part-cpu.png)
-
-![RAM module](../../assets/images/ch01/c01-part-ram.png)
-
-The CPU chip fits into the socket of the motherboard only one way (the triangle mark); the RAM module fits into its slot only one way (the notch in the gold contacts).
-
----
-
-*Drawings made for this book.*

@@ -10,3 +10,4 @@
 - [Finding the complement: 40 questions](08-complements.md)
 - [Truth tables of expressions: 30 questions](09-truth-tables.md)
 - [Logic circuits to draw and read: 30 questions](10-circuits.md)
+- [NAND only and NOR only: 20 questions](11-nand-nor-only.md)
