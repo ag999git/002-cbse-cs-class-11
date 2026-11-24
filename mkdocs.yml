@@ -1,0 +1,30 @@
+site_name: Computer Science with Python – CBSE Class XI
+site_url: https://ag999git.github.io/002-cbse-cs-class-11/
+repo_url: https://github.com/ag999git/002-cbse-cs-class-11
+docs_dir: book
+use_directory_urls: true
+exclude_docs: |
+  SUMMARY.md
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: deep orange
+      accent: deep orange
+      toggle: {icon: material/brightness-7, name: Dark mode}
+    - scheme: slate
+      primary: deep orange
+      accent: deep orange
+      toggle: {icon: material/brightness-4, name: Light mode}
+  features: [navigation.indexes, navigation.sections, navigation.top, search.suggest, content.code.copy]
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc: {permalink: true}
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.arithmatex: {generic: true}

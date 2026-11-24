@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="371.237143pt" height="115.308pt" viewBox="0 0 371.237143 115.308" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-24T16:34:11.165771</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 115.308 
+L 371.237143 115.308 
+L 371.237143 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 41.768743 77.510571 
+L 75.745543 77.510571 
+Q 77.510571 77.510571 77.510571 75.745543 
+L 77.510571 46.181314 
+Q 77.510571 44.416286 75.745543 44.416286 
+L 41.768743 44.416286 
+Q 40.003714 44.416286 40.003714 46.181314 
+L 40.003714 75.745543 
+Q 40.003714 77.510571 41.768743 77.510571 
+z
+" clip-path="url(#p13179ef816)" style="fill: #fdf1e9; stroke: #262626; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 81.481886 77.510571 
+L 115.458686 77.510571 
+Q 117.223714 77.510571 117.223714 75.745543 
+L 117.223714 46.181314 
+Q 117.223714 44.416286 115.458686 44.416286 
+L 81.481886 44.416286 
+Q 79.716857 44.416286 79.716857 46.181314 
+L 79.716857 75.745543 
+Q 79.716857 77.510571 81.481886 77.510571 
+z
+" clip-path="url(#p13179ef816)" style="fill: #fdf1e9; stroke: #262626; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 121.195029 77.510571 
+L 155.171829 77.510571 
+Q 156.936857 77.510571 156.936857 75.745543 
+L 156.936857 46.181314 
+Q 156.936857 44.416286 155.171829 44.416286 
+L 121.195029 44.416286 
+Q 119.43 44.416286 119.43 46.181314 
+L 119.43 75.745543 
+Q 119.43 77.510571 121.195029 77.510571 
+z
+" clip-path="url(#p13179ef816)" style="fill: #fdf1e9; stroke: #262626; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 160.908171 77.510571 
+L 194.884971 77.510571 
+Q 196.65 77.510571 196.65 75.745543 
+L 196.65 46.181314 
+Q 196.65 44.416286 194.884971 44.416286 
+L 160.908171 44.416286 
+Q 159.143143 44.416286 159.143143 46.181314 
+L 159.143143 75.745543 
+Q 159.143143 77.510571 160.908171 77.510571 
+z
+" clip-path="url(#p13179ef816)" style="fill: #fdf1e9; stroke: #262626; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 200.621314 77.510571 
+L 234.598114 77.510571 
+Q 236.363143 77.510571 236.363143 75.745543 
+L 236.363143 46.181314 
+Q 236.363143 44.416286 234.598114 44.416286 
+L 200.621314 44.416286 
+Q 198.856286 44.416286 198.856286 46.181314 
+L 198.856286 75.745543 
+Q 198.856286 77.510571 200.621314 77.510571 
+z
+" clip-path="url(#p13179ef816)" style="fill: #fdf1e9; stroke: #262626; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 240.334457 77.510571 
+L 274.311257 77.510571 
+Q 276.076286 77.510571 276.076286 75.745543 
+L 276.076286 46.181314 
+Q 276.076286 44.416286 274.311257 44.416286 
+L 240.334457 44.416286 
+Q 238.569429 44.416286 238.569429 46.181314 
+L 238.569429 75.745543 
+Q 238.569429 77.510571 240.334457 77.510571 
+z
+" clip-path="url(#p13179ef816)" style="fill: #ffffff; stroke: #262626; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 280.0476 77.510571 
+L 314.0244 77.510571 
+Q 315.789429 77.510571 315.789429 75.745543 
+L 315.789429 46.181314 
+Q 315.789429 44.416286 314.0244 44.416286 
+L 280.0476 44.416286 
+Q 278.282571 44.416286 278.282571 46.181314 
+L 278.282571 75.745543 
+Q 278.282571 77.510571 280.0476 77.510571 
+z
+" clip-path="url(#p13179ef816)" style="fill: #ffffff; stroke: #262626; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 319.760743 77.510571 
+L 353.737543 77.510571 
+Q 355.502571 77.510571 355.502571 75.745543 
+L 355.502571 46.181314 
+Q 355.502571 44.416286 353.737543 44.416286 
+L 319.760743 44.416286 
+Q 317.995714 44.416286 317.995714 46.181314 
+L 317.995714 75.745543 
+Q 317.995714 77.510571 319.760743 77.510571 
+z
+" clip-path="url(#p13179ef816)" style="fill: #ffffff; stroke: #262626; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Calibri'; text-anchor: start; fill: #262626" x="6.909429" y="59.91525" transform="rotate(-0 6.909429 59.91525)">Content</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Calibri'; text-anchor: start; fill: #c55a11" x="6.909429" y="93.009536" transform="rotate(-0 6.909429 93.009536)">Address</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 7.4px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="58.757143" y="56.156993" transform="rotate(-0 58.757143 56.156993)">01010010</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.5px; font-family: 'Calibri'; text-anchor: middle; fill: #595959" x="58.757143" y="69.717247" transform="rotate(-0 58.757143 69.717247)">'R'</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Calibri'; text-anchor: middle; fill: #c55a11" x="58.757143" y="93.009536" transform="rotate(-0 58.757143 93.009536)">1000</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.4px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="98.470286" y="56.156993" transform="rotate(-0 98.470286 56.156993)">01000001</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.5px; font-family: 'Calibri'; text-anchor: middle; fill: #595959" x="98.470286" y="69.717247" transform="rotate(-0 98.470286 69.717247)">'A'</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Calibri'; text-anchor: middle; fill: #c55a11" x="98.470286" y="93.009536" transform="rotate(-0 98.470286 93.009536)">1001</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7.4px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="138.183429" y="56.156993" transform="rotate(-0 138.183429 56.156993)">01001101</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.5px; font-family: 'Calibri'; text-anchor: middle; fill: #595959" x="138.183429" y="69.717247" transform="rotate(-0 138.183429 69.717247)">'M'</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Calibri'; text-anchor: middle; fill: #c55a11" x="138.183429" y="93.009536" transform="rotate(-0 138.183429 93.009536)">1002</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7.4px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="177.896571" y="56.156993" transform="rotate(-0 177.896571 56.156993)">01000001</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.5px; font-family: 'Calibri'; text-anchor: middle; fill: #595959" x="177.896571" y="69.717247" transform="rotate(-0 177.896571 69.717247)">'A'</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Calibri'; text-anchor: middle; fill: #c55a11" x="177.896571" y="93.009536" transform="rotate(-0 177.896571 93.009536)">1003</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7.4px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="217.609714" y="56.156993" transform="rotate(-0 217.609714 56.156993)">01001110</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8.5px; font-family: 'Calibri'; text-anchor: middle; fill: #595959" x="217.609714" y="69.717247" transform="rotate(-0 217.609714 69.717247)">'N'</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Calibri'; text-anchor: middle; fill: #c55a11" x="217.609714" y="93.009536" transform="rotate(-0 217.609714 93.009536)">1004</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 7.4px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="257.322857" y="56.156993" transform="rotate(-0 257.322857 56.156993)">00100000</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 8.5px; font-family: 'Calibri'; text-anchor: middle; fill: #595959" x="257.322857" y="69.771036" transform="rotate(-0 257.322857 69.771036)">' ' (space)</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Calibri'; text-anchor: middle; fill: #c55a11" x="257.322857" y="93.009536" transform="rotate(-0 257.322857 93.009536)">1005</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 7.4px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="297.036" y="56.156993" transform="rotate(-0 297.036 56.156993)">00111001</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 8.5px; font-family: 'Calibri'; text-anchor: middle; fill: #595959" x="297.036" y="69.717247" transform="rotate(-0 297.036 69.717247)">'9'</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Calibri'; text-anchor: middle; fill: #c55a11" x="297.036" y="93.009536" transform="rotate(-0 297.036 93.009536)">1006</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 7.4px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="336.749143" y="56.156993" transform="rotate(-0 336.749143 56.156993)">00110010</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 8.5px; font-family: 'Calibri'; text-anchor: middle; fill: #595959" x="336.749143" y="69.717247" transform="rotate(-0 336.749143 69.717247)">'2'</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Calibri'; text-anchor: middle; fill: #c55a11" x="336.749143" y="93.009536" transform="rotate(-0 336.749143 93.009536)">1007</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 233.260284 37.797429 
+Q 138.184858 37.797429 43.109433 37.797429 
+" style="fill: none; stroke: #c55a11; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 9px; font-family: 'Calibri'; text-anchor: middle; fill: #262626" x="138.183429" y="32.345116" transform="rotate(-0 138.183429 32.345116)">the word "RAMAN" uses 5 bytes, at addresses 1000 to 1004</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p13179ef816">
+   <rect x="3.6" y="3.6" width="364.037143" height="108.108"/>
+  </clipPath>
+ </defs>
+</svg>

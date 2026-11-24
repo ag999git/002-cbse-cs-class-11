@@ -1,0 +1,54 @@
+# Chapter 1: glossary
+
+Every word explained in the chapter, in alphabetical order, with the section of the book where it is explained.
+
+- **Address**: the number of one memory location (box), by which the CPU finds it (1.6).
+- **ALU (Arithmetic Logic Unit)**: the part of the CPU that calculates and compares (1.4).
+- **Bit**: the smallest unit of data, a single 0 or 1 (1.7).
+- **Booting**: starting a computer: the start-up program in ROM checks the hardware and loads the operating system into RAM (1.6).
+- **Bus**: the sets of wires that carry data, addresses and control signals between the units (1.5).
+- **Byte**: 8 bits, enough to store one letter (1.7).
+- **Cache**: a small, very fast memory between the CPU and RAM (1.6).
+- **Cache hit**: the data the CPU needs is found in the cache (1.6).
+- **Cache miss**: the data is not in the cache and must be fetched from RAM (1.6).
+- **Content**: the data stored in a memory location (1.6).
+- **Control unit (CU)**: the part that directs the work (1.4).
+- **CPU (Central Processing Unit)**: the part that carries out the instructions of a program (1.4).
+- **Data**: raw facts and figures, such as marks, names or temperatures (1.1).
+- **Device**: one piece of hardware, such as a keyboard or a printer (1.2).
+- **DRAM**: dynamic RAM, refreshed many times a second; used as main memory (1.6).
+- **EEPROM**: electrically erasable programmable ROM (1.6).
+- **EPROM**: erasable programmable ROM, erased by ultraviolet light (1.6).
+- **Fetch–decode–execute**: the three steps the CPU repeats for every instruction (1.4).
+- **Flash memory**: memory erased electrically in blocks; used in pen drives, SSDs and BIOS chips (1.6).
+- **Hard copy**: output printed on paper (1.3).
+- **Hardware**: the parts of a computer you can see and touch (1.2).
+- **Impact printer**: a printer that strikes an inked ribbon against the paper, such as a dot-matrix printer (1.3).
+- **Information**: data that has been processed so that it means something (1.1).
+- **Input device**: hardware that sends data into the computer (1.3).
+- **Instruction**: one command that tells the computer to do one thing, such as "add these two numbers" (1.1).
+- **KB, MB, GB, TB, PB**: kilobyte, megabyte, gigabyte, terabyte, petabyte (1.7).
+- **Memory**: the parts of a computer that hold data and programs (1.6).
+- **MICR**: Magnetic Ink Character Reader; reads the numbers on bank cheques (1.3).
+- **Motherboard**: the main circuit board, to which the CPU, memory and every other part are connected (1.4).
+- **Nibble**: 4 bits (1.7).
+- **Non-impact printer**: a printer that does not touch the paper, such as an inkjet or laser printer (1.3).
+- **Non-volatile**: keeps its contents without power (1.6).
+- **OCR**: Optical Character Recognition; turns printed text in a picture into text that can be edited (1.3).
+- **OMR**: Optical Mark Reader; reads pencil marks in the bubbles of answer sheets (1.3).
+- **Output device**: hardware that takes the result out of the computer to the user (1.3).
+- **Peripheral**: a device connected to the computer from outside, such as a printer (1.3).
+- **Primary memory**: memory the CPU reads directly (RAM, ROM) (1.6).
+- **Program**: a set of instructions, in order, that does a whole job (1.1).
+- **PROM**: programmable ROM, written once by the user (1.6).
+- **RAM**: Random Access Memory: read-and-write, volatile working memory (1.6).
+- **Register**: a tiny, very fast store inside the CPU (1.4).
+- **ROM**: Read Only Memory: non-volatile memory that holds the start-up instructions (1.6).
+- **Secondary memory (storage)**: memory that keeps data for later, such as a hard disk (1.6).
+- **Sector**: a slice of a track on a disk; the smallest unit the disk reads or writes (1.6).
+- **Soft copy**: output shown on a screen (1.3).
+- **Software**: the programs that tell the hardware what to do (1.2).
+- **SRAM**: static RAM, fast and not refreshed; used for cache (1.6).
+- **Track**: one ring on the surface of a disk platter (1.6).
+- **Volatile**: loses its contents when the power goes off (1.6).
+- **Von Neumann architecture**: the plan of a computer whose one memory holds both the program and its data (1.5).
