@@ -11,3 +11,4 @@
 - [Arranging and comparing sizes: 60 questions](09-arrange-and-compare.md)
 - [How many files fit: 20 questions](10-how-many-fit.md)
 - [The memory hierarchy: 20 questions](11-memory-hierarchy.md)
+- [More practice: Exam Corner, objective questions, traps and more questions with answers](12-more-practice.md)
