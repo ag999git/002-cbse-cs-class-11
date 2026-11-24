@@ -4,7 +4,7 @@ Online resources for the book *Computer Science with Python, CBSE Class XI* by A
 large full-colour drawings, extra topics, hundreds of questions with answers, flashcards, glossaries and Google Colab notebooks.
 Every QR code in the printed book opens a page here.
 
-**Read online:** [website](https://ag999git.github.io/002-cbse-cs-class-11/) · GitBook (link to come) · this repository
+**Read online:** [website](https://ag999git.github.io/002-cbse-cs-class-11/) · this repository
 
 | Ch | Chapter | Read |
 |:-:|---|---|
@@ -35,7 +35,7 @@ Every QR code in the printed book opens a page here.
 
 | Folder | What it holds |
 |---|---|
-| `book/` | Every page readers see; the website and GitBook are both built from it |
+| `book/` | Every page readers see; the website is built from it |
 | `book/unit-N/NNN-chNN-…/` | One folder per chapter: its home page, extra topics, questions, glossary, flashcards |
 | `book/assets/` | Full-colour pictures, flowcharts (PNG, SVG, draw.io) and circuits |
 | `book/flashcards/` | Flashcards as CSV for Anki or Quizlet |
