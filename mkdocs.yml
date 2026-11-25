@@ -2,6 +2,7 @@ site_name: Computer Science with Python – CBSE Class XI
 site_url: https://ag999git.github.io/002-cbse-cs-class-11/
 repo_url: https://github.com/ag999git/002-cbse-cs-class-11
 docs_dir: book
+copyright: © 2026 Anurag Gupta · Computer Science with Python, CBSE Class XI · Online companion
 use_directory_urls: true
 theme:
   name: material
@@ -16,6 +17,8 @@ theme:
       accent: deep orange
       toggle: {icon: material/brightness-4, name: Light mode}
   features: [navigation.indexes, navigation.sections, navigation.top, search.suggest, content.code.copy]
+extra:
+  generator: false
 extra_css:
   - assets/stylesheets/extra.css
 markdown_extensions:
@@ -30,6 +33,7 @@ markdown_extensions:
   - pymdownx.arithmatex: {generic: true}
 plugins:
   - search
+  - awesome-pages
   - redirects:
       redirect_maps:
         'q/0101.md': 'unit-1/001-ch01-computer-system-organisation/index.md'
