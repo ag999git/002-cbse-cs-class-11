@@ -20,3 +20,10 @@ of the codes in the chapters are all made from this table by `tools/qr_build.py`
 | 0108 | Challenge | Units of memory | 1.7 | **How many paise are there in ₹5?** | unit-1/001-ch01-computer-system-organisation/challenge-units-of-memory.md |
 | 0109 | Practice | 350 more questions | Questions with answers | These questions are for **learning** | unit-1/001-ch01-computer-system-organisation/questions/index.md |
 | 0110 | Revise | Flashcards, glossary | End | **Revise online.** | unit-1/001-ch01-computer-system-organisation/flashcards.md |
+| 0301 | Index | All online pages | Start | **The online pages of this chapter.** | unit-1/003-ch03-boolean-logic/index.md |
+| 0302 | Challenge | All 16 gates | 3.4 | *Reading the table:* the columns 00, 01, 10, 11 | unit-1/003-ch03-boolean-logic/challenge-16-functions.md |
+| 0303 | Beyond syllabus | XNOR in depth | 3.4 | **Common mistake.** Drawing XOR without the extra curved line. | unit-1/003-ch03-boolean-logic/beyond-xnor.md |
+| 0304 | Beyond syllabus | SOP, POS, K-maps | 3.5 | **How do you check a long expression?** | unit-1/003-ch03-boolean-logic/beyond-sop-pos-kmap.md |
+| 0305 | Challenge | Two bits, three results | 3.5 | **Can a gate have more than two inputs?** | unit-1/003-ch03-boolean-logic/challenge-two-bits-three-results.md |
+| 0306 | Sometimes asked | Duality, tautology | 3.7 | **Common mistake.** A + A' = 0. | unit-1/003-ch03-boolean-logic/sometimes-asked-duality-tautology.md |
+| 0307 | Memory palace | Palaces of Chapter 3 | End | If you like to remember with pictures and stories | unit-1/003-ch03-boolean-logic/memory-palace.md |
