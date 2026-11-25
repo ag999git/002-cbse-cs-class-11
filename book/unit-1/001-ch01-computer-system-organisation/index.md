@@ -9,8 +9,9 @@ The online pages of this chapter of *Computer Science with Python, CBSE Class XI
 | [More practice on units of memory, and 1000 or 1024?](challenge-units-of-memory.md) | Challenge |
 | [See it: the device gallery](see-it-device-gallery.md) | See it |
 | [See it: inside the computer](see-it-inside-the-computer.md) | See it |
-| [Types of RAM and ROM](sometimes-asked-types-of-rom-ram.md) | Sometimes asked |
+| [EPROM, flash and the other types of RAM and ROM](sometimes-asked-types-of-rom-ram.md) | Sometimes asked |
 | [Word size, buses and Mbps](sometimes-asked-word-size-and-buses.md) | Sometimes asked |
+| [Units of memory: converter and self-quiz (opens in Google Colab)](https://colab.research.google.com/github/ag999git/002-cbse-cs-class-11/blob/main/notebooks/ch01-units-of-memory.ipynb) | Try it yourself |
 | [Questions with answers](questions/index.md) | Practice |
 | [Glossary](glossary.md) | Words of the chapter |
 | [Flashcards](flashcards.md) | Revision |

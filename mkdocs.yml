@@ -26,3 +26,17 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.highlight
   - pymdownx.arithmatex: {generic: true}
+plugins:
+  - search
+  - redirects:
+      redirect_maps:
+        'q/0101.md': 'unit-1/001-ch01-computer-system-organisation/index.md'
+        'q/0102.md': 'unit-1/001-ch01-computer-system-organisation/beyond-types-and-history.md'
+        'q/0103.md': 'unit-1/001-ch01-computer-system-organisation/see-it-device-gallery.md'
+        'q/0104.md': 'unit-1/001-ch01-computer-system-organisation/sometimes-asked-word-size-and-buses.md'
+        'q/0105.md': 'unit-1/001-ch01-computer-system-organisation/sometimes-asked-types-of-rom-ram.md'
+        'q/0106.md': 'unit-1/001-ch01-computer-system-organisation/see-it-inside-the-computer.md'
+        'q/0107.md': 'unit-1/001-ch01-computer-system-organisation/beyond-memory-hierarchy.md'
+        'q/0108.md': 'unit-1/001-ch01-computer-system-organisation/challenge-units-of-memory.md'
+        'q/0109.md': 'unit-1/001-ch01-computer-system-organisation/questions/index.md'
+        'q/0110.md': 'unit-1/001-ch01-computer-system-organisation/flashcards.md'
