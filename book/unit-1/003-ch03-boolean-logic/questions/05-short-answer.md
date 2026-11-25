@@ -1,4 +1,4 @@
-# Chapter 3: Boolean Logic and Logic Circuits: Short-answer questions (25)
+# Chapter 3: Boolean Logic and Logic Circuits: Short-answer questions (27)
 
 *Chapter 3 · Questions (online). The questions of the printed chapter and many more, each followed by its answer and the reason. Try each one first. The difficulty (E easy, M medium, H hard) and the section of the book are given in brackets. Every Boolean answer on this page was checked by a program (`tools/ch03_typed_questions.py`).*
 
@@ -124,3 +124,17 @@
 **Q25.** Explain the order of operations in a Boolean expression, with an example. *(E · 3.8)* *[2 marks]*
 
 **Answer.** Brackets first, then NOT, then AND, then OR (B-N-A-O). Example: in A + B·C', first C', then B·C', then the OR with A.
+
+## Which gate is this circuit? (1 mark)
+
+**Q26.** Which single gate does this circuit behave like? Give its name and expression. *(M · 3.3)* *[1 mark]*
+
+![A circuit to identify](../../../assets/circuits/ch03/typed-which-nand.png){ width="330" }
+
+**Answer.** A **NAND** gate: Y = (A·B)'. *Why:* the AND gives A·B and the NOT turns it round; "AND, then NOT" is exactly NAND. *Check:* its outputs for 00, 01, 10, 11 are 1, 1, 1, 0.
+
+**Q27.** Which single gate does this circuit behave like? Give its name and expression. *(M · 3.3)* *[1 mark]*
+
+![A circuit to identify](../../../assets/circuits/ch03/typed-which-nor.png){ width="330" }
+
+**Answer.** A **NOR** gate: Y = (A + B)'. *Why:* "OR, then NOT" is NOR. *Check:* its outputs for 00, 01, 10, 11 are 1, 0, 0, 0.

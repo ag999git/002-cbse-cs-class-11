@@ -6,7 +6,7 @@ The online pages of this chapter of *Computer Science with Python, CBSE Class XI
 |---|---|
 | [Challenge: all 16 gates of two inputs](challenge-16-functions.md) | Challenge |
 | [Challenge: two bits for three results](challenge-two-bits-three-results.md) | Challenge |
-| [The memory palaces of Chapter 3](memory-palace.md) | Page |
+| [Beyond syllabus: gates with four inputs](beyond-four-input-gates.md) | Beyond syllabus |
 | [Beyond syllabus: from a truth table back to an expression: SOP, POS and K-maps](beyond-sop-pos-kmap.md) | Beyond syllabus |
 | [Beyond syllabus: XNOR, the "same answer" detector](beyond-xnor.md) | Beyond syllabus |
 | [Sometimes asked: duality, tautology and fallacy](sometimes-asked-duality-tautology.md) | Sometimes asked |

@@ -65,11 +65,32 @@ def table(cols, inputs, heads=None):
     return '\n'.join(lines)
 
 
-def circuit(expr, name, label='Y'):
+def gate_then_not(kind, name, width=330):
+    """An AND or OR gate followed by a separate NOT gate (Schemdraw's parser would merge them into NAND/NOR)."""
+    import matplotlib
+    matplotlib.use('Agg')
+    import schemdraw
+    from schemdraw import logic
+    IMG.mkdir(parents=True, exist_ok=True)
+    schemdraw.config(fontsize=14, lw=1.6)
+    with schemdraw.Drawing(show=False) as d:
+        g = (logic.And if kind == 'AND' else logic.Or)()
+        logic.Line().at(g.in1).left(0.6).label('A', 'left')
+        logic.Line().at(g.in2).left(0.6).label('B', 'left')
+        logic.Line().at(g.out).right(0.8)
+        logic.Not()
+        logic.Line().right(0.5).label('Y', 'right')
+        d.save(str(IMG / f'typed-{name}.png'), dpi=300)
+    return f'![A circuit to identify](../../../assets/circuits/ch03/typed-{name}.png){{ width="{width}" }}'
+
+
+def circuit(expr, name, label='Y', reveal=True, width=420):
+    """reveal=False: the drawing shows only the output name, not the expression (for 'which gate is this?')."""
     IMG.mkdir(parents=True, exist_ok=True)
     path = IMG / f'typed-{name}.png'
-    bl.draw(P(expr), str(path), out_label=label)
-    return f'![Circuit for {label} = {bl.show(P(expr))}](../../../assets/circuits/ch03/typed-{name}.png){{ width="420" }}'
+    bl.draw(P(expr), str(path), out_label=label, reveal=reveal)
+    alt = f'Circuit for {label} = {bl.show(P(expr))}' if reveal else 'A circuit to identify'
+    return f'![{alt}](../../../assets/circuits/ch03/typed-{name}.png){{ width="{width}" }}'
 
 
 HEAD = ('*Chapter 3 · Questions (online). The questions of the printed chapter and many more, each followed by its '
@@ -354,19 +375,29 @@ short = [
         ('Explain the order of operations in a Boolean expression, with an example. *(E · 3.8)* *[2 marks]*',
          'Brackets first, then NOT, then AND, then OR (B-N-A-O). Example: in A + B·C\', first C\', then B·C\', then the OR with A.'),
     ]),
+    ('Which gate is this circuit? (1 mark)', [
+        ('Which single gate does this circuit behave like? Give its name and expression. *(M · 3.3)* *[1 mark]*\n\n'
+         + gate_then_not('AND', 'which-nand'),
+         'A **NAND** gate: Y = (A·B)\'. *Why:* the AND gives A·B and the NOT turns it round; "AND, then NOT" is exactly NAND. '
+         '*Check:* its outputs for 00, 01, 10, 11 are 1, 1, 1, 0.'),
+        ('Which single gate does this circuit behave like? Give its name and expression. *(M · 3.3)* *[1 mark]*\n\n'
+         + gate_then_not('OR', 'which-nor'),
+         'A **NOR** gate: Y = (A + B)\'. *Why:* "OR, then NOT" is NOR. *Check:* its outputs for 00, 01, 10, 11 are 1, 0, 0, 0.'),
+    ]),
 ]
+outs("(A·B)'", '1110'); outs("(A + B)'", '1000')
 for e, w in [("A + A", "A"), ("A·A'", "0"), ("(A')'", "A"), ("A + A·B", "A"), ("A + (B + C)", "(A + B) + C")]:
     same(e, w)
 same("(A·B' + C·D)'", "(A' + B)·(C' + D')"); same("((A + B)·(C + D'))'", "A'·B' + C'·D")
 dual_is("A + A·B", "A·(A + B)"); dual_is("(A + B)·(A + C)", "A·B + A·C"); dual_is("A + B·C", "A·(B + C)")
 same("A + A'·B", "A + B"); outs("A'·B + A·B'", '0110'); same("(A' + B')'", "A·B"); outs("(A ⊕ B)'", '1001')
 same("(A ⊕ B)'", "A·B + A'·B'"); same("(A'·B')'", "A + B"); same("(A·A)'", "A'"); val("A ⊕ B ⊕ C", {'A': 1, 'B': 0, 'C': 1}, 0)
-assert sum(len(x[1]) for x in short) == 25
+assert sum(len(x[1]) for x in short) == 27
 body, n = [], 1
 for head, items in short:
     b, n = qblock(items, n)
     body.append(f'## {head}\n\n{b}')
-write('05-short-answer.md', 'Short-answer questions (25)', '\n'.join(body))
+write('05-short-answer.md', 'Short-answer questions (27)', '\n'.join(body))
 
 # ================================================================== 06 long answer (10)
 long_q = [
@@ -477,10 +508,10 @@ idx = QD / 'index.md'
 lines = {
     '01-mcq.md': 'Multiple-choice questions: 40', '02-fill-in.md': 'Fill in the blanks: 25',
     '03-true-false.md': 'True or false: 25', '04-assertion-reason.md': 'Assertion and reason: 15',
-    '05-short-answer.md': 'Short-answer questions (1, 2 and 3 marks): 25',
+    '05-short-answer.md': 'Short-answer questions (1, 2 and 3 marks): 27',
     '06-long-answer.md': 'Long-answer questions (3 and 4 marks): 10',
     '07-case-study.md': f'Case studies: 6 cases, {nq} questions'}
-typed = 40 + 25 + 25 + 15 + 25 + 10 + nq
+typed = 40 + 25 + 25 + 15 + 27 + 10 + nq
 idx.write_text(f"""# Chapter 3: Boolean Logic and Logic Circuits: questions
 
 **{typed + 120} questions**, each with its answer and the reason below it. They are for learning: try each question first, then read the answer.
