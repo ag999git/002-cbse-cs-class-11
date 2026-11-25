@@ -16,6 +16,8 @@ theme:
       accent: deep orange
       toggle: {icon: material/brightness-4, name: Light mode}
   features: [navigation.indexes, navigation.sections, navigation.top, search.suggest, content.code.copy]
+extra_css:
+  - assets/stylesheets/extra.css
 markdown_extensions:
   - admonition
   - attr_list

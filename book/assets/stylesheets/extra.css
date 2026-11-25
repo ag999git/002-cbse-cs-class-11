@@ -1,0 +1,12 @@
+/* Book website: fixes for dark mode (the slate scheme). */
+
+/* Flashcards keep their pale card, so their text must stay dark in both modes. */
+.fc { color: #262626; }
+
+/* Circuits and other drawings have see-through backgrounds and black lines:
+   give every picture a white card in dark mode so the lines stay visible. */
+[data-md-color-scheme="slate"] .md-typeset img {
+  background: #ffffff;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+}

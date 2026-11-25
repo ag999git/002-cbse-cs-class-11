@@ -2,7 +2,7 @@
 
 Click a card to turn it over. Say the meaning aloud first, then check. Download the same cards for Anki or Quizlet: [ch01.csv](../../flashcards/ch01.csv).
 
-<style>.fc{display:inline-block;width:15rem;min-height:6rem;margin:.3rem;padding:.6rem;border:2px solid #C55A11;border-radius:.6rem;vertical-align:top;cursor:pointer;background:#FDF1E9}.fc .b{display:none}.fc.on .f{display:none}.fc.on .b{display:block}.fc .f{font-weight:bold;font-size:1.1rem}</style>
+<style>.fc{display:inline-block;width:15rem;min-height:6rem;margin:.3rem;padding:.6rem;border:2px solid #C55A11;border-radius:.6rem;vertical-align:top;cursor:pointer;background:#FDF1E9;color:#262626}.fc .b{display:none}.fc.on .f{display:none}.fc.on .b{display:block}.fc .f{font-weight:bold;font-size:1.1rem}</style>
 
 <div markdown="0">
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Address</div><div class="b">the number of one memory location (box), by which the CPU finds it (1.6).</div></div>
