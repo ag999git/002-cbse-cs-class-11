@@ -10,3 +10,28 @@
   padding: 0.4rem;
   border-radius: 0.3rem;
 }
+
+/* Chapter 4 interactive pages (26 Nov 2026): converter, trays and meter, letters to bytes. */
+.c4box { border: 2px solid #C55A11; border-radius: .5rem; padding: .8rem 1rem; margin: 1rem 0; }
+.c4box input, .c4box select, .c4box button { font-size: .8rem; padding: .25rem .5rem; margin: .2rem .3rem .2rem 0;
+  border: 1px solid #888; border-radius: .3rem; background: var(--md-default-bg-color); color: var(--md-default-fg-color); }
+.c4box button { background: #C55A11; color: #fff; border-color: #C55A11; cursor: pointer; }
+.c4box button.c4light { background: transparent; color: #C55A11; }
+.c4err { color: #c00; font-weight: bold; }
+.c4mono, .c4grp { font-family: Consolas, monospace; }
+.c4grp { display: inline-block; text-align: center; border-bottom: 2px solid #C55A11; margin: 0 .25rem; padding: 0 .15rem; }
+.c4pad { color: #C55A11; }
+.c4ans { font-size: 1.05rem; }
+table.c4 td, table.c4 th { padding: .2rem .6rem; }
+.c4trays { display: flex; flex-wrap: wrap; align-items: flex-end; gap: .5rem; }
+.c4tray { cursor: pointer; text-align: center; border: 2px solid #888; border-radius: .4rem; padding: .3rem; min-width: 3.2rem; }
+.c4tray.on { border-color: #C55A11; background: #FDF1E9; color: #262626; }
+.c4dots { display: grid; gap: 2px; justify-content: center; margin: .2rem auto; }
+.c4dot { width: .45rem; height: .45rem; border-radius: 50%; border: 1px dashed #999; }
+.c4tray.on .c4dot { background: #C55A11; border: 1px solid #262626; }
+.c4wheel { display: inline-block; font: bold 1.6rem Consolas, monospace; width: 2rem; text-align: center; margin: 0 .1rem;
+  background: #fff; color: #262626; border: 2px solid #262626; border-radius: .3rem; }
+.c4wheel.changed { background: #F8CBAD; }
+.c4byte { display: inline-block; font-family: Consolas, monospace; border: 1px solid #262626; padding: 0 .2rem; margin: 1px;
+  background: #F8CBAD; color: #262626; }
+.c4byte.zero { background: #fff; color: #888; }

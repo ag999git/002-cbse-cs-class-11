@@ -21,6 +21,8 @@ extra:
   generator: false
 extra_css:
   - assets/stylesheets/extra.css
+extra_javascript:
+  - assets/javascripts/ch04-numbase.js
 markdown_extensions:
   - admonition
   - attr_list

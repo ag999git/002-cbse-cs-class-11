@@ -1,0 +1,61 @@
+﻿ASCII,American Standard Code for Information Interchange: a 7-bit code for 128 English characters (4.5).
+Base,the number of digits a number system has; also called radix (4.1).
+Binary,"the base-2 system, digits 0 and 1 (4.1)."
+Binary point,the point in a binary number that separates the whole part from the fraction (4.2).
+Character,"one letter, digit, sign or symbol (4.5)."
+Character set,the list of characters a scheme can write (4.5).
+Code,the fixed number given to a character (4.1).
+Code point,"the number Unicode gives a character, written U+ and hex (4.5)."
+Control code,"an ASCII code that prints nothing, such as 10 (new line) (4.5)."
+Conversion,writing the same number in another system (4.3).
+Decimal,"the base-10 system, digits 0 to 9 (4.1)."
+Digit,one symbol used to write numbers (4.1).
+Encoding scheme,a table giving every character a fixed number that everyone uses (4.5).
+Extended ASCII,"8-bit versions of ASCII with 128 more codes, different from maker to maker (4.5)."
+Fixed-length encoding,every character takes the same number of bytes (UTF-32) (4.5).
+Fraction part,the digits after the point (4.4).
+Grouping,cutting a binary number into groups of 3 or 4 bits (4.3).
+Hexadecimal,"the base-16 system, digits 0 to 9 and A to F (4.1)."
+ISCII,Indian Script Code for Information Interchange: an 8-bit code for Indian scripts (4.5).
+LSB,"least significant bit, the bit with the smallest place value (4.2)."
+MSB,"most significant bit, the bit with the largest place value (4.2)."
+Number system,a way of writing numbers with a fixed set of digits (4.1).
+Octal,"the base-8 system, digits 0 to 7 (4.1)."
+Padding,adding 0s at the far end of a number to fill the last group (4.3).
+Place value,what a digit is worth because of its place; also positional value or weight (4.2).
+Position,"the number of a place, 0, 1, 2 … leftwards from the point (4.2)."
+Repeating fraction,a fraction whose digits repeat for ever (4.4).
+Unicode,one standard giving a code point to every character of every language (4.5).
+UTF-8,stores a code point in 1 to 4 bytes (variable length) (4.5).
+UTF-32,stores every code point in 4 bytes (fixed length) (4.5).
+Variable-length encoding,characters take different numbers of bytes (UTF-8) (4.5).
+Bases of the four systems,"2, 8, 10, 16"
+Digits of hex,"0–9, A–F"
+F in decimal,15
+"""10"" in any base means …",the base itself
+Value of a digit,digit × base^position
+Decimal → base b,divide by b; read the remainders up
+Base b → decimal,multiply by place values; add
+Bits per octal digit,3
+Bits per hex digit,4
+Octal ↔ hex,through binary
+Fraction → base b,multiply by b; read the whole parts down
+Bits in ASCII,"7 (128 codes, 0 to 127)"
+"'A', 'a', '0', space in ASCII","65, 97, 48, 32"
+Small letter =,capital + 32
+Bits in ISCII,8 (256 codes)
+ISCII's codes 0–127,the same as ASCII
+Unicode gives each character a …,"code point, written U+ and hex"
+₹ code point,U+20B9 (added 2010)
+UTF-8 uses,1 to 4 bytes per character
+UTF-32 uses,4 bytes always
+हम सब एक in UTF-8 / UTF-32,20 bytes / 32 bytes
+"Unicode characters (17.0, 2025)","159,801 from 172 scripts"
+Powers of 2 up to 2¹⁰,"1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024"
+n bits can hold,2ⁿ patterns: 0 to 2ⁿ − 1
+A = ? (the chessboard),64 + 1 = 65 = (1000001)₂
+Which fractions end in binary?,those whose denominator is a power of 2
+Pad 0s for grouping,whole part: on the left; fraction: on the right
+Devanagari block,U+0900 to U+097F
+Bytes in UTF-8 for a Hindi letter,3
+Finding the 100th character,UTF-32: jump to byte 396; UTF-8: count from the start
