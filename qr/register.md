@@ -26,5 +26,16 @@ of the codes in the chapters are all made from this table by `tools/qr_build.py`
 | 0304 | Beyond syllabus | SOP, POS, K-maps | 3.5 | **How do you check a long expression?** | unit-1/003-ch03-boolean-logic/beyond-sop-pos-kmap.md |
 | 0305 | Challenge | Two bits, three results | 3.5 | **Can a gate have more than two inputs?** | unit-1/003-ch03-boolean-logic/challenge-two-bits-three-results.md |
 | 0306 | Sometimes asked | Duality, tautology | 3.7 | **Common mistake.** A + A' = 0. | unit-1/003-ch03-boolean-logic/sometimes-asked-duality-tautology.md |
+| 0401 | Index | All online pages | Start | **Helps you understand.** | unit-1/004-ch04-number-systems-and-encoding/index.md |
+| 0402 | See it | Trays and meter | 4.2 | Learn the **binary row** by heart | unit-1/004-ch04-number-systems-and-encoding/see-it-trays-and-meter.md |
+| 0403 | See it | Converter | 4.3 | *Reading the flowchart:* | unit-1/004-ch04-number-systems-and-encoding/see-it-converter.md |
+| 0404 | Sometimes asked | Double dabble | 4.3 | **Online.** A second method for binary to decimal | unit-1/004-ch04-number-systems-and-encoding/sometimes-asked-double-dabble.md |
+| 0405 | Beyond syllabus | Why 0.1 + 0.2 ≠ 0.3 | 4.4 | **Worked example 6.** | unit-1/004-ch04-number-systems-and-encoding/beyond-floating-point.md |
+| 0406 | Sometimes asked | Binary arithmetic | 4.4 | **Common mistake.** Multiplying the whole number | unit-1/004-ch04-number-systems-and-encoding/sometimes-asked-binary-arithmetic.md |
+| 0407 | See it | Letters to bytes | 4.5 | **How does the computer know which number stands for which letter?** | unit-1/004-ch04-number-systems-and-encoding/see-it-letters-to-bytes.md |
+| 0408 | Beyond syllabus | UTF-8 bits | 4.5 | **One register for the whole world.** | unit-1/004-ch04-number-systems-and-encoding/beyond-utf8-bits.md |
+| 0409 | Sometimes asked | Typing Indian text | 4.5 | **Online.** How to type Hindi | unit-1/004-ch04-number-systems-and-encoding/sometimes-asked-typing-indian-languages.md |
+| 0410 | Practice | 327 more questions | Questions with answers | These questions are for **learning** | unit-1/004-ch04-number-systems-and-encoding/questions/index.md |
+| 0411 | Revise | Flashcards, glossary | Questions (answer to Q26) | **Answer.** 011 111 | unit-1/004-ch04-number-systems-and-encoding/flashcards.md |
 
 **Retired IDs** (never printed; never reuse them): 0307 (memory palace of Chapter 3; removed 26 Nov 2026, when memory palaces were put on hold for the whole book).

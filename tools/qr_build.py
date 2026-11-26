@@ -30,7 +30,7 @@ def redirects(rows):
     block = '  - redirects:\n      redirect_maps:\n' + ''.join(f"        'q/{r['id']}.md': '{r['target']}'\n" for r in rows)
     y = (ROOT / 'mkdocs.yml').read_text(encoding='utf-8')
     y = re.sub(r'\nplugins:\n(?:  .*\n)+', '\n', y)          # replace the whole plugins block each time
-    y = y.rstrip('\n') + '\nplugins:\n  - search\n' + block
+    y = y.rstrip('\n') + '\nplugins:\n  - search\n  - awesome-pages\n' + block   # 26 Nov: keep the menu plugin (menu_build.py)
     (ROOT / 'mkdocs.yml').write_text(y, encoding='utf-8')
 
 
