@@ -20,6 +20,25 @@ of the codes in the chapters are all made from this table by `tools/qr_build.py`
 | 0108 | Challenge | Units of memory | 1.7 | **How many paise are there in ₹5?** | unit-1/001-ch01-computer-system-organisation/challenge-units-of-memory.md |
 | 0109 | Practice | 350 more questions | Questions with answers | These questions are for **learning** | unit-1/001-ch01-computer-system-organisation/questions/index.md |
 | 0110 | Revise | Flashcards, glossary | End | **Revise online.** | unit-1/001-ch01-computer-system-organisation/flashcards.md |
+| 0201 | Index | All online pages | Start | **Your phone is the real example in every section | unit-1/002-ch02-software-and-os/index.md |
+| 0202 | Sometimes asked | Grouping software | 2.1 | *Reading the figure:* each layer works | unit-1/002-ch02-software-and-os/sometimes-asked-grouping-software.md |
+| 0203 | Explained | The airport in full | 2.5 | **Music is playing, Maps is guiding you | unit-1/002-ch02-software-and-os/explained-airport-part-by-part.md |
+| 0204 | Explained | Utilities on a phone | 2.2 | *Cyber link (Chapter 18):* an antivirus | unit-1/002-ch02-software-and-os/explained-utilities-on-your-phone.md |
+| 0205 | Step by step | Installing a printer | 2.2 | *Where the analogy stops:* a remote's code set | unit-1/002-ch02-software-and-os/step-by-step-installing-a-printer.md |
+| 0206 | Helps you understand | Kinds of applications | 2.3 | **A replica jersey or one with your name on it?** | unit-1/002-ch02-software-and-os/helps-kinds-of-application-software.md |
+| 0207 | See it | Translators at work | 2.4 | **Translators.** An **assembler** | unit-1/002-ch02-software-and-os/see-it-compiler-interpreter.md |
+| 0208 | Challenge | Six-command robot | 2.4 | **Common mistake.** "An interpreter also makes | unit-1/002-ch02-software-and-os/challenge-robot-six-commands.md |
+| 0209 | Sometimes asked | Linker and loader | 2.4 | **Answer.** A compiler. *Why:* it translates the whole program | unit-1/002-ch02-software-and-os/sometimes-asked-source-to-running-program.md |
+| 0210 | Sometimes asked | Software libraries | 2.4 | **Answer.** Lines 1 to 3. | unit-1/002-ch02-software-and-os/sometimes-asked-software-libraries.md |
+| 0211 | Beyond syllabus | How Python runs | 2.4 | *On your phone:* Google Translate does both. | unit-1/002-ch02-software-and-os/beyond-how-python-runs.md |
+| 0212 | Explained | The OS at work | 2.5 | **Common mistake.** "The OS is just the home screen." | unit-1/002-ch02-software-and-os/explained-os-at-work.md |
+| 0213 | Step by step | Tapping an app | 2.5 | *When you tap an app icon,* | unit-1/002-ch02-software-and-os/step-by-step-tap-an-app.md |
+| 0214 | Beyond syllabus | Types of OS | 2.5 | **Answer.** It shares out the CPU, memory, files and devices | unit-1/002-ch02-software-and-os/beyond-types-of-os.md |
+| 0215 | Explained | Report a cyber crime | 2.5 | *Cyber link:* the screen lock | unit-1/002-ch02-software-and-os/explained-report-a-cyber-crime.md |
+| 0216 | Beyond syllabus | Interface history | 2.6 | **Play your favourite song, five ways.** | unit-1/002-ch02-software-and-os/beyond-ui-timeline.md |
+| 0217 | Challenge | Ten safe commands | 2.6 | *CUI vs GUI:* a CUI needs | unit-1/002-ch02-software-and-os/challenge-safe-commands.md |
+| 0218 | Practice | About 250 questions | Questions | These questions are for **learning** | unit-1/002-ch02-software-and-os/questions/index.md |
+| 0219 | Revise | Flashcards, glossary | Summary | **Revise online.** | unit-1/002-ch02-software-and-os/flashcards.md |
 | 0301 | Index | All online pages | Start | **The online pages of this chapter.** | unit-1/003-ch03-boolean-logic/index.md |
 | 0302 | Challenge | All 16 gates | 3.4 | *Reading the table:* the columns 00, 01, 10, 11 | unit-1/003-ch03-boolean-logic/challenge-16-functions.md |
 | 0303 | Beyond syllabus | XNOR in depth | 3.4 | **Common mistake.** Drawing XOR without the extra curved line. | unit-1/003-ch03-boolean-logic/beyond-xnor.md |

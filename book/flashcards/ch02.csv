@@ -1,0 +1,45 @@
+﻿Application software,software that does a job for the user (2.3).
+Assembler,turns assembly into machine code (2.4).
+Assembly language,short codes for machine instructions (2.4).
+Compiler,translates the whole program into object code (2.4).
+Customised software,made for one user's needs (2.3).
+Device driver,lets the OS work one device (2.2).
+GUI,graphical user interface (2.6).
+High-level language,English-like programming language (2.4).
+IDE,"editor, translator and error messages in one window (2.4)."
+Interpreter,translates and runs one statement at a time (2.4).
+Machine language,instructions as 0s and 1s (2.4).
+Memory management,giving RAM to programs and taking it back (2.5).
+Object code,a program in machine language (2.4).
+Operating system,the software that runs the computer (2.2).
+Process,a running program (2.5).
+Resource manager,"the OS, sharing CPU, memory, files, devices (2.5)."
+Source code,a program as written (2.4).
+System software,software that runs the computer (2.1).
+User interface,how the user gives commands (2.6).
+Utility,a program that keeps the computer healthy (2.2).
+Three groups of software (S·P·A),System; Programming tools and translators; Application
+Why software?,the same hardware does different jobs with different programs (washing machine)
+Kinds of system software,"operating system, utilities, device drivers"
+The OS is …,the most basic software and the resource manager
+Five utilities,"compression, backup, antivirus, defragmenter, disk cleanup"
+Defragmenter on a phone or SSD?,not needed: no moving parts
+Device driver in one line,lets the OS work one particular device (the universal remote's code set)
+Malware in the syllabus,"virus, trojan, adware"
+Best defence against ransomware,a recent backup
+General-purpose vs customised,ready-made for anyone vs made for one organisation
+Three levels of language,"machine (0s, 1s) → assembly (short codes) → high-level (English-like)"
+Source code vs object code,as written vs in machine language
+Assembler,"assembly → machine code, one for one"
+Compiler (C = Complete first),whole program; all errors; object file; runs fast
+Interpreter (I = Instantly),one statement at a time; stops at the first error; needed every run
+Python is …,"interpreted (inside: bytecode, then the virtual machine)"
+OS functions (Pilots Must File Daily Safety),"process, memory, file, device management, security"
+Process,a running program
+Time sharing vs space sharing,CPU in turns (runway) vs RAM divided (gates)
+One tap on an app uses …,"file, memory, process and device management"
+Five user interfaces,"command, graphical, touch, voice, gesture"
+CUI vs GUI,"typed commands, little memory vs icons and clicks, more memory"
+Digital arrest,no such thing in law: hang up and report
+Report cyber fraud,1930 (money lost) · cybercrime.gov.in · Chakshu on sancharsaathi.gov.in
+8-core phone,an airport with 8 runways

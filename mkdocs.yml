@@ -24,6 +24,7 @@ extra_css:
 extra_javascript:
   - assets/javascripts/ch04-numbase.js
   - assets/javascripts/ch05-dryrun.js
+  - assets/javascripts/ch02-translate.js
 markdown_extensions:
   - admonition
   - attr_list
@@ -49,6 +50,25 @@ plugins:
         'q/0108.md': 'unit-1/001-ch01-computer-system-organisation/challenge-units-of-memory.md'
         'q/0109.md': 'unit-1/001-ch01-computer-system-organisation/questions/index.md'
         'q/0110.md': 'unit-1/001-ch01-computer-system-organisation/flashcards.md'
+        'q/0201.md': 'unit-1/002-ch02-software-and-os/index.md'
+        'q/0202.md': 'unit-1/002-ch02-software-and-os/sometimes-asked-grouping-software.md'
+        'q/0203.md': 'unit-1/002-ch02-software-and-os/explained-airport-part-by-part.md'
+        'q/0204.md': 'unit-1/002-ch02-software-and-os/explained-utilities-on-your-phone.md'
+        'q/0205.md': 'unit-1/002-ch02-software-and-os/step-by-step-installing-a-printer.md'
+        'q/0206.md': 'unit-1/002-ch02-software-and-os/helps-kinds-of-application-software.md'
+        'q/0207.md': 'unit-1/002-ch02-software-and-os/see-it-compiler-interpreter.md'
+        'q/0208.md': 'unit-1/002-ch02-software-and-os/challenge-robot-six-commands.md'
+        'q/0209.md': 'unit-1/002-ch02-software-and-os/sometimes-asked-source-to-running-program.md'
+        'q/0210.md': 'unit-1/002-ch02-software-and-os/sometimes-asked-software-libraries.md'
+        'q/0211.md': 'unit-1/002-ch02-software-and-os/beyond-how-python-runs.md'
+        'q/0212.md': 'unit-1/002-ch02-software-and-os/explained-os-at-work.md'
+        'q/0213.md': 'unit-1/002-ch02-software-and-os/step-by-step-tap-an-app.md'
+        'q/0214.md': 'unit-1/002-ch02-software-and-os/beyond-types-of-os.md'
+        'q/0215.md': 'unit-1/002-ch02-software-and-os/explained-report-a-cyber-crime.md'
+        'q/0216.md': 'unit-1/002-ch02-software-and-os/beyond-ui-timeline.md'
+        'q/0217.md': 'unit-1/002-ch02-software-and-os/challenge-safe-commands.md'
+        'q/0218.md': 'unit-1/002-ch02-software-and-os/questions/index.md'
+        'q/0219.md': 'unit-1/002-ch02-software-and-os/flashcards.md'
         'q/0301.md': 'unit-1/003-ch03-boolean-logic/index.md'
         'q/0302.md': 'unit-1/003-ch03-boolean-logic/challenge-16-functions.md'
         'q/0303.md': 'unit-1/003-ch03-boolean-logic/beyond-xnor.md'
