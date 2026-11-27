@@ -37,5 +37,20 @@ of the codes in the chapters are all made from this table by `tools/qr_build.py`
 | 0409 | Sometimes asked | Typing Indian text | 4.5 | **Online.** How to type Hindi | unit-1/004-ch04-number-systems-and-encoding/sometimes-asked-typing-indian-languages.md |
 | 0410 | Practice | 327 more questions | Questions with answers | These questions are for **learning** | unit-1/004-ch04-number-systems-and-encoding/questions/index.md |
 | 0411 | Revise | Flashcards, glossary | Questions (answer to Q26) | **Answer.** 011 111 | unit-1/004-ch04-number-systems-and-encoding/flashcards.md |
+| 0501 | Index | All online pages | Start | **You find the larger of two numbers | unit-2/005-ch05-problem-solving/index.md |
+| 0502 | Explained | Testing and debugging | 5.2 | **Testing and debugging, in plain words.** | unit-2/005-ch05-problem-solving/explained-testing-and-debugging.md |
+| 0503 | Explained | ATM algorithm | 5.3 | **How the algorithm works.** | unit-2/005-ch05-problem-solving/explained-atm-algorithm.md |
+| 0504 | Step by step | Euclid step by step | 5.3 | **A purely computing algorithm: Euclid | unit-2/005-ch05-problem-solving/step-by-step-euclid-gcd.md |
+| 0505 | Sometimes asked | More symbols | 5.4 | *Standards:* | unit-2/005-ch05-problem-solving/sometimes-asked-more-symbols.md |
+| 0506 | Practice | Five-step practice | 5.5 | **A student who is not confident | unit-2/005-ch05-problem-solving/practice-five-step-method.md |
+| 0507 | See it | Dry-run player | 5.5 | **The worked examples are numbered | unit-2/005-ch05-problem-solving/see-it-dry-run-player.md |
+| 0508 | Practical | 22 practical charts | 5.5 | *The string, list and dictionary programs | unit-2/005-ch05-problem-solving/practical-flowcharts.md |
+| 0509 | Explained | Pseudocode to Python | 5.6 | **Pseudocode is like Hinglish:** | unit-2/005-ch05-problem-solving/explained-pseudocode-to-python.md |
+| 0510 | Practice | Trace tables | 5.7 | **The cricket scorer writes | unit-2/005-ch05-problem-solving/practice-trace-tables.md |
+| 0511 | Step by step | Halving search | 5.8 | **How halving finds M | unit-2/005-ch05-problem-solving/step-by-step-halving-search.md |
+| 0512 | Explained | Four prime tests | 5.8 | **Why the shorter methods are still right.** | unit-2/005-ch05-problem-solving/explained-prime-tests.md |
+| 0513 | Explained | More decompositions | 5.9 | More systems decomposed | unit-2/005-ch05-problem-solving/explained-more-decompositions.md |
+| 0514 | Practice | About 300 questions | Questions with answers | These questions are for **learning** | unit-2/005-ch05-problem-solving/questions/index.md |
+| 0515 | Revise | Flashcards, glossary | Summary | **Revise online.** | unit-2/005-ch05-problem-solving/flashcards.md |
 
 **Retired IDs** (never printed; never reuse them): 0307 (memory palace of Chapter 3; removed 26 Nov 2026, when memory palaces were put on hold for the whole book).

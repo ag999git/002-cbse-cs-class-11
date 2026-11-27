@@ -35,3 +35,15 @@ table.c4 td, table.c4 th { padding: .2rem .6rem; }
 .c4byte { display: inline-block; font-family: Consolas, monospace; border: 1px solid #262626; padding: 0 .2rem; margin: 1px;
   background: #F8CBAD; color: #262626; }
 .c4byte.zero { background: #fff; color: #888; }
+
+/* Chapter 5 (27 Nov 2026): pseudocode and Python side by side; one column on a phone */
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0 1.2em; }
+@media (max-width: 760px) { .grid2 { grid-template-columns: 1fr; } }
+.grid2 pre { margin-top: 0.3em; }
+
+/* Chapter 5 dry-run player: the flowchart beside the walk-through; stacked on a phone */
+.dryrun-grid { display: grid; grid-template-columns: 1fr; gap: 0.5em; }
+@media (max-width: 900px) { .dryrun-grid { grid-template-columns: 1fr; } }
+.dryrun #dr-picture img { background: #fff; }
+.dryrun table { font-size: 0.72rem; }
+.dryrun input, .dryrun select { font-size: 0.8rem; padding: 0.2em 0.4em; border: 1px solid #C55A11; border-radius: 4px; }

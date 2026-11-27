@@ -7,6 +7,7 @@ Flashcards help you remember the words of each chapter. Read the word on the fro
 | 1 Computer System Organisation | [50 flashcards](../unit-1/001-ch01-computer-system-organisation/flashcards.md) | [ch01.csv](ch01.csv) |
 | 3 Boolean Logic and Logic Circuits | [32 flashcards](../unit-1/003-ch03-boolean-logic/flashcards.md) | [ch03.csv](ch03.csv) |
 | 4 Number Systems and Encoding Schemes | [61 flashcards](../unit-1/004-ch04-number-systems-and-encoding/flashcards.md) | [ch04.csv](ch04.csv) |
+| 5 Problem Solving | [55 flashcards](../unit-2/005-ch05-problem-solving/flashcards.md) | [ch05.csv](ch05.csv) |
 
 The cards of the other chapters will be added here as each chapter is written.
 
