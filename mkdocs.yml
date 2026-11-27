@@ -25,6 +25,7 @@ extra_javascript:
   - assets/javascripts/ch04-numbase.js
   - assets/javascripts/ch05-dryrun.js
   - assets/javascripts/ch02-translate.js
+  - assets/javascripts/ch06-seeit.js
 markdown_extensions:
   - admonition
   - attr_list

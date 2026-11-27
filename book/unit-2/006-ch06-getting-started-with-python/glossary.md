@@ -1,3 +1,41 @@
-# Chapter 6: Getting Started with Python: glossary
+# Chapter 6: glossary
 
-*This page is being written. It will appear here with the printed chapter.*
+Every word explained in the chapter, in alphabetical order, with the section of the book where it is explained.
+
+- **Assignment**: tying a name to an object with `=` (6.7).
+- **Case-sensitive**: capital and small letters differ (6.1).
+- **Cloud**: computers on the internet that run programs for you (6.2).
+- **Convention**: a habit Python does not enforce (6.5).
+- **Character set**: the characters Python accepts (6.4).
+- **Comment**: a note from `#` to the line's end, skipped (6.8).
+- **Docstring**: a triple-quoted note at the top of a program (6.8).
+- **Dynamic typing**: a variable takes its object's type (6.7).
+- **Error message**: Python's report of a mistake (6.3).
+- **Expression**: anything that gives a value (6.3).
+- **Feature**: a quality of a language (6.1).
+- **IDE**: one program to write, run and correct programs (6.2).
+- **IDLE**: Python's own simple IDE (6.2).
+- **Identifier**: a name chosen by the programmer (6.5).
+- **Inline comment**: a comment after a statement (6.8).
+- **Interactive mode**: the shell, one statement at a time (6.3).
+- **Keyword**: a word reserved by Python (6.5).
+- **L-value**: the name on the left of `=` (6.7).
+- **Literal**: a fixed value written in a program (6.6).
+- **Multi-line comment**: a note over several lines (6.8).
+- **Notebook**: cells of code and text (6.2).
+- **Object**: a value in memory, with a type (6.7).
+- **Open source**: code anyone may study and change (6.1).
+- **Operand**: a value an operator uses (6.6).
+- **Operator**: a symbol or word that works on values (6.6).
+- **Prompt**: the shell's `>>>` (6.3).
+- **Punctuator**: a symbol that groups or separates (6.6).
+- **Python**: a high-level interpreted language (6.1).
+- **R-value**: the value on the right of `=` (6.7).
+- **Script**: a program in a `.py` file (6.3).
+- **Script mode**: running a whole script (6.3).
+- **Shell**: IDLE's interactive window (6.2).
+- **Statement**: one instruction (6.3).
+- **Static typing**: the variable has a fixed type (C++, Java) (6.7).
+- **Token**: the smallest meaningful unit of code (6.4).
+- **Variable**: a name tied to an object (6.7).
+- **Version**: a numbered release of a language (6.1).
