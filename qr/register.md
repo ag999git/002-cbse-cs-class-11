@@ -71,5 +71,30 @@ of the codes in the chapters are all made from this table by `tools/qr_build.py`
 | 0513 | Explained | More decompositions | 5.9 | More systems decomposed | unit-2/005-ch05-problem-solving/explained-more-decompositions.md |
 | 0514 | Practice | About 300 questions | Questions with answers | These questions are for **learning** | unit-2/005-ch05-problem-solving/questions/index.md |
 | 0515 | Revise | Flashcards, glossary | Summary | **Revise online.** | unit-2/005-ch05-problem-solving/flashcards.md |
+| 0601 | Index | All online pages | Start | **You have written algorithms in plain words | unit-2/006-ch06-getting-started-with-python/index.md |
+| 0602 | Helps you understand | Story and versions | 6.1 | **Why does almost every school | unit-2/006-ch06-getting-started-with-python/helps-story-and-versions.md |
+| 0603 | Helps you understand | Python's limits | 6.1 | Think of a dish at a dhaba | unit-2/006-ch06-getting-started-with-python/helps-python-limits.md |
+| 0604 | Step by step | Install Python | 6.2 | Download Python only from **python.org** | get-started/install-python.md |
+| 0605 | Get started | Which tool? Start here | 6.2 | **Where do I type Python?** | get-started/index.md |
+| 0606 | Explained | Where code runs | 6.2 | **Online, in the website | get-started/where-does-my-code-run.md |
+| 0607 | Good practice | When things go wrong | 6.3 | **Spaces at the start of a line matter.** | get-started/when-things-go-wrong.md |
+| 0608 | Good practice | AI: learn first | 6.2 | Learn on **IDLE** | unit-2/006-ch06-getting-started-with-python/good-practice-ai-assistants.md |
+| 0609 | See it | Interactive or script | 6.3 | In the shell you may type a sum | unit-2/006-ch06-getting-started-with-python/see-it-interactive-or-script.md |
+| 0610 | Explained | Error messages | 6.3 | **Reading an error message.** | unit-2/006-ch06-getting-started-with-python/explained-reading-an-error-message.md |
+| 0611 | Helps you understand | Long statements | 6.3 | A statement normally ends where the line ends | unit-2/006-ch06-getting-started-with-python/helps-statements-over-several-lines.md |
+| 0612 | See it | Token explorer | 6.4 | **How does Python read a line?** | unit-2/006-ch06-getting-started-with-python/see-it-token-explorer.md |
+| 0613 | Helps you understand | All 35 keywords | 6.5 | **Can I call my variable | unit-2/006-ch06-getting-started-with-python/helps-all-35-keywords.md |
+| 0614 | See it | Identifier checker | 6.5 | A name must obey two kinds of rule | unit-2/006-ch06-getting-started-with-python/see-it-identifier-checker.md |
+| 0615 | Good practice | PEP 8 for Class XI | 6.5 | **Why follow these conventions?** | unit-2/006-ch06-getting-started-with-python/good-practice-pep8-and-peps.md |
+| 0616 | Sometimes asked | Literals up close | 6.6 | **Which parts of a statement are fixed values?** | unit-2/006-ch06-getting-started-with-python/sometimes-asked-literals-up-close.md |
+| 0617 | See it | Names and objects | 6.7 | **What does `marks = 92` really do?** | unit-2/006-ch06-getting-started-with-python/see-it-names-and-objects.md |
+| 0618 | Practice | Tricky assignments | 6.7 | **Python's shortcut: | unit-2/006-ch06-getting-started-with-python/practice-tricky-assignments-and-none.md |
+| 0619 | Good practice | Notes for people | 6.8 | **Way 1** gives true comments | unit-2/006-ch06-getting-started-with-python/good-practice-notes-for-people.md |
+| 0620 | Practice | Four Colab notebooks | Start | Each line of code has its own stripe | unit-2/006-ch06-getting-started-with-python/practice-colab-notebooks.md |
+| 0621 | Revise | Cheat sheet (A4) | Summary | **Revise online.** | unit-2/006-ch06-getting-started-with-python/revise-cheat-sheet.md |
+| 0622 | Practice | About 320 questions | Questions with answers | These questions are for **learning** | unit-2/006-ch06-getting-started-with-python/questions/index.md |
+| 0623 | Revise | Flashcards, glossary | Summary | **Flashcards and glossary.** | unit-2/006-ch06-getting-started-with-python/flashcards.md |
+| 0624 | Compare | Python and Java | 6.7 | **Not every language works like this.** | unit-2/006-ch06-getting-started-with-python/compare-python-and-java.md |
+| 0625 | Compare | Strong and weak | 6.7 | Static and dynamic answer one question | unit-2/006-ch06-getting-started-with-python/compare-strong-and-weak-typing.md |
 
 **Retired IDs** (never printed; never reuse them): 0307 (memory palace of Chapter 3; removed 26 Nov 2026, when memory palaces were put on hold for the whole book).

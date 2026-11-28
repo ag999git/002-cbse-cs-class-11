@@ -28,6 +28,15 @@ def redirects(rows):
     for r in rows:
         assert (ROOT / 'book' / r['target']).exists(), f"{r['id']}: target page missing: {r['target']}"
     block = '  - redirects:\n      redirect_maps:\n' + ''.join(f"        'q/{r['id']}.md': '{r['target']}'\n" for r in rows)
+    # 28 Nov: pages that moved (qr/moved.md: | old page | new page |) keep their old address working
+    moved = ROOT / 'qr' / 'moved.md'
+    if moved.exists():
+        for line in moved.read_text(encoding='utf-8').split('\n'):
+            cells = [c.strip().strip('`') for c in line.strip().strip('|').split('|')]
+            if len(cells) == 2 and cells[0].endswith('.md') and cells[1].endswith('.md'):
+                assert (ROOT / 'book' / cells[1]).exists(), f'moved page: new page missing: {cells[1]}'
+                assert not (ROOT / 'book' / cells[0]).exists(), f'moved page: old page still there: {cells[0]}'
+                block += f"        '{cells[0]}': '{cells[1]}'\n"
     y = (ROOT / 'mkdocs.yml').read_text(encoding='utf-8')
     y = re.sub(r'\nplugins:\n(?:  .*\n)+', '\n', y)          # replace the whole plugins block each time
     y = y.rstrip('\n') + '\nplugins:\n  - search\n  - awesome-pages\n' + block   # 26 Nov: keep the menu plugin (menu_build.py)

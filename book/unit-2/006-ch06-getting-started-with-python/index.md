@@ -13,10 +13,7 @@ The online pages of Chapter 6 of *Computer Science with Python, CBSE Class XI*. 
 |---|---|---|
 | [Python's story and versions](helps-story-and-versions.md) | Helps you understand | 6.1 |
 | [Python's limits](helps-python-limits.md) | Helps you understand | 6.1 |
-| [Install Python, VS Code and Jupyter on Windows](step-install-python-vscode-jupyter.md) | Step by step | 6.2 |
-| [Five places to write Python, one program](step-five-tools-one-program.md) | Step by step | 6.2 |
-| [Where does my code run?](explained-where-does-my-code-run.md) | Explained | 6.2 |
-| [When things go wrong](good-practice-when-things-go-wrong.md) | Good practice | 6.2 |
+| [Set up Python (install, IDLE, Colab, VS Code, Jupyter, problems: the Get started section)](set-up-python.md) | Step by step | 6.2 |
 | [AI assistants: learn first](good-practice-ai-assistants.md) | Good practice | 6.2 |
 | [Interactive or script?](see-it-interactive-or-script.md) | See it | 6.3 |
 | [Reading an error message](explained-reading-an-error-message.md) | Explained | 6.3 |
@@ -27,6 +24,8 @@ The online pages of Chapter 6 of *Computer Science with Python, CBSE Class XI*. 
 | [PEP 8 for Class XI, and what a PEP is](good-practice-pep8-and-peps.md) | Good practice | 6.5 |
 | [Literals up close](sometimes-asked-literals-up-close.md) | Sometimes asked | 6.6 |
 | [Names and objects, step by step](see-it-names-and-objects.md) | See it | 6.7 |
+| [Python and Java, step by step](compare-python-and-java.md) | Compare | 6.7 |
+| [Strong and weak typing: Python and JavaScript](compare-strong-and-weak-typing.md) | Compare | 6.7 |
 | [Tricky assignments and None](practice-tricky-assignments-and-none.md) | Practice | 6.7 |
 | [Notes for people](good-practice-notes-for-people.md) | Good practice | 6.8 |
 | [Four Colab notebooks](practice-colab-notebooks.md) | Practice | the whole chapter |

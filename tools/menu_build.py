@@ -22,6 +22,7 @@ def h1(md):
 
 put(BOOK, """nav:
     - index.md
+    - get-started
     - how-to-use.md
     - unit-1
     - unit-2

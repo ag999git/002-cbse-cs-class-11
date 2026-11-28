@@ -892,8 +892,27 @@ Chapter 11 (Strings) uses these strings.
     write('good-practice-notes-for-people.md', t)
 
 
+def set_up_python():
+    t = head('Set up Python', 'Step by step',
+             'Section 6.2 of the book shows five places to write Python. Installing and using each one, step by step, is in '
+             'the website\'s **Get started** section, at the top of the menu, so that you can set up Python before any '
+             'chapter.')
+    t += '''| You want to | Open |
+|---|---|
+| decide which tool to use | [Start here: set up Python](../../get-started/index.md) |
+| install Python on Windows (or a Mac, or Linux) | [Install Python, step by step](../../get-started/install-python.md) |
+| write and run your first program in IDLE | [Your first program in IDLE](../../get-started/first-program-in-idle.md) |
+| use Python in a browser, with nothing to install | [Google Colab, step by step](../../get-started/google-colab.md) |
+| set up VS Code or Jupyter | [VS Code](../../get-started/vs-code.md) · [Jupyter Notebook](../../get-started/jupyter.md) |
+| understand where your code runs | [Where does my code run?](../../get-started/where-does-my-code-run.md) |
+| fix a problem | [When things go wrong](../../get-started/when-things-go-wrong.md) |
+'''
+    write('set-up-python.md', t)
+
+
 if __name__ == '__main__':
-    for f in (story, limits, install, five_tools, where_runs, things_go_wrong, ai, error_messages, several_lines,
-              keywords, pep8, literals, notes):
+    # 28 Nov (setup-section-plan-v2, F1): install, five_tools, where_runs and things_go_wrong moved to the website's
+    # "Get started" section (tools/getstarted_pages.py); their functions stay here only as a record and are not run.
+    for f in (story, limits, ai, error_messages, several_lines, keywords, pep8, literals, notes, set_up_python):
         f()
     print(f'{checks} checks, 0 wrong (Python {PYV})')

@@ -5,20 +5,22 @@ Click a card to turn it over. Say the meaning aloud first, then check. Download 
 <style>.fc{display:inline-block;width:15rem;min-height:6rem;margin:.3rem;padding:.6rem;border:2px solid #C55A11;border-radius:.6rem;vertical-align:top;cursor:pointer;background:#FDF1E9;color:#262626}.fc .b{display:none}.fc.on .f{display:none}.fc.on .b{display:block}.fc .f{font-weight:bold;font-size:1.1rem}</style>
 
 <div markdown="0">
-<div class="fc" onclick="this.classList.toggle('on')"><div class="f">Assignment</div><div class="b">tying a name to an object with <code>=</code> (6.7).</div></div>
+<div class="fc" onclick="this.classList.toggle('on')"><div class="f">Assignment</div><div class="b">giving a value to a name with <code>=</code>; in Python the name is tied to the object (6.7).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Case-sensitive</div><div class="b">capital and small letters differ (6.1).</div></div>
-<div class="fc" onclick="this.classList.toggle('on')"><div class="f">Cloud</div><div class="b">computers on the internet that run programs for you (6.2).</div></div>
-<div class="fc" onclick="this.classList.toggle('on')"><div class="f">Convention</div><div class="b">a habit Python does not enforce (6.5).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Character set</div><div class="b">the characters Python accepts (6.4).</div></div>
+<div class="fc" onclick="this.classList.toggle('on')"><div class="f">Cloud</div><div class="b">computers on the internet that run programs for you (6.2).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Comment</div><div class="b">a note from <code>#</code> to the line&#x27;s end, skipped (6.8).</div></div>
+<div class="fc" onclick="this.classList.toggle('on')"><div class="f">Convention</div><div class="b">a habit Python does not enforce (6.5).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Docstring</div><div class="b">a triple-quoted note at the top of a program (6.8).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Dynamic typing</div><div class="b">a variable takes its object&#x27;s type (6.7).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Error message</div><div class="b">Python&#x27;s report of a mistake (6.3).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Expression</div><div class="b">anything that gives a value (6.3).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Feature</div><div class="b">a quality of a language (6.1).</div></div>
+<div class="fc" onclick="this.classList.toggle('on')"><div class="f">Garbage collection</div><div class="b">Python freeing, by itself, the memory of objects that no name points to any more.</div></div>
+<div class="fc" onclick="this.classList.toggle('on')"><div class="f">High-level language</div><div class="b">a programming language close to the way people write, far from machine language.</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">IDE</div><div class="b">one program to write, run and correct programs (6.2).</div></div>
-<div class="fc" onclick="this.classList.toggle('on')"><div class="f">IDLE</div><div class="b">Python&#x27;s own simple IDE (6.2).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Identifier</div><div class="b">a name chosen by the programmer (6.5).</div></div>
+<div class="fc" onclick="this.classList.toggle('on')"><div class="f">IDLE</div><div class="b">Python&#x27;s own simple IDE (6.2).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Inline comment</div><div class="b">a comment after a statement (6.8).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Interactive mode</div><div class="b">the shell, one statement at a time (6.3).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Keyword</div><div class="b">a word reserved by Python (6.5).</div></div>
@@ -30,6 +32,7 @@ Click a card to turn it over. Say the meaning aloud first, then check. Download 
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Open source</div><div class="b">code anyone may study and change (6.1).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Operand</div><div class="b">a value an operator uses (6.6).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Operator</div><div class="b">a symbol or word that works on values (6.6).</div></div>
+<div class="fc" onclick="this.classList.toggle('on')"><div class="f">Programming language</div><div class="b">a language with exact rules, in which every statement has one meaning, for writing programs.</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Prompt</div><div class="b">the shell&#x27;s <code>&gt;&gt;&gt;</code> (6.3).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Punctuator</div><div class="b">a symbol that groups or separates (6.6).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Python</div><div class="b">a high-level interpreted language (6.1).</div></div>
@@ -37,8 +40,11 @@ Click a card to turn it over. Say the meaning aloud first, then check. Download 
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Script</div><div class="b">a program in a <code>.py</code> file (6.3).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Script mode</div><div class="b">running a whole script (6.3).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Shell</div><div class="b">IDLE&#x27;s interactive window (6.2).</div></div>
+<div class="fc" onclick="this.classList.toggle('on')"><div class="f">Single-line comment</div><div class="b">a comment that starts with <code>#</code> at the start of a line and runs to its end (6.8).</div></div>
+<div class="fc" onclick="this.classList.toggle('on')"><div class="f">Source code</div><div class="b">a program as people wrote it, before it is translated.</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Statement</div><div class="b">one instruction (6.3).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Static typing</div><div class="b">the variable has a fixed type (C++, Java) (6.7).</div></div>
+<div class="fc" onclick="this.classList.toggle('on')"><div class="f">Strongly typed</div><div class="b">said of a language that never mixes values of different types quietly: <code>&quot;5&quot; + 3</code> is a <code>TypeError</code> in Python.</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Token</div><div class="b">the smallest meaningful unit of code (6.4).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Variable</div><div class="b">a name tied to an object (6.7).</div></div>
 <div class="fc" onclick="this.classList.toggle('on')"><div class="f">Version</div><div class="b">a numbered release of a language (6.1).</div></div>

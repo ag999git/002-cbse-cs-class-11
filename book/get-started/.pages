@@ -1,0 +1,10 @@
+title: "Get started: set up Python"
+nav:
+    - index.md
+    - install-python.md
+    - first-program-in-idle.md
+    - google-colab.md
+    - vs-code.md
+    - jupyter.md
+    - where-does-my-code-run.md
+    - when-things-go-wrong.md

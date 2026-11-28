@@ -1,8 +1,8 @@
-# Explained: Where does my code run?
+# Where does my code run?
 
-*Chapter 6 · Explained. Table 6.3 in the printed chapter sorts the tools into three kinds. Here is what each kind means, drawn, and what it needs. (This page follows the author's comparison of programming environments in his *Python Programming* (2026), rewritten for Class XI.)*
+*Get started. Table 6.3 of the book (Chapter 6) sorts the tools into three kinds. Here is what each kind means, drawn, and what it needs. (This page follows the author's comparison of programming environments in his *Python Programming* (2026), rewritten for Class XI.)*
 
-![Three kinds of tool](../../assets/images/ch06/c06-online-where-code-runs.png){ width="691" }
+![Three kinds of tool](../assets/images/get-started/where-code-runs.png){ width="691" }
 
 | Kind | Where your code runs | Example tools | Install? | Internet? | Typical use |
 |---|---|---|:-:|:-:|---|

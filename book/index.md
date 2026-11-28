@@ -1,5 +1,9 @@
 # Computer Science with Python: CBSE Class XI (online companion)
 
+[Start here: set up Python on your computer](get-started/index.md){ .md-button .md-button--primary }
+
+New to Python? Install it (or use it in your browser) before Chapter 6: the **Get started** section takes you through it step by step.
+
 This is the online companion of the book *Computer Science with Python, CBSE Class XI* by Anurag Gupta
 (syllabus code 083, 2026–27). The printed book has everything you need for the exam. These pages add:
 
